@@ -1,0 +1,8 @@
+# Ignorar arquivos internos do assistente e logs
+.agent/
+MEMORIA.md
+memoria.md
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db

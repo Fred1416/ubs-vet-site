@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== TÍTULO E DESCRIÇÃO (EDITÁVEL) ========== -->
+    <title>UBS VET Popular | Clínica Veterinária & Pet Shop 24H</title>
+    <meta name="description"
+        content="Clínica Veterinária Popular 24H e Pet Shop completo. Consultas, exames, vacinação, cirurgias e muito mais para seu melhor amigo. Cuidando com amor e responsabilidade!">
+
+    <!-- ========== OPEN GRAPH (SEO) ========== -->
+    <meta property="og:title" content="UBS VET Popular | Clínica Veterinária & Pet Shop 24H">
+    <meta property="og:description" content="Clínica Veterinária Popular 24H e Pet Shop completo em Belo Horizonte. Cuidando do seu melhor amigo com amor e responsabilidade!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80">
+    <meta property="og:type" content="website">
+
+    <!-- ========== FAVICON (EDITÁVEL) ========== -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+
+    <!-- ========== FOLHA DE ESTILOS ========== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ========== FONTES GOOGLE (EDITÁVEL) ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER / MENU NAVEGAÇÃO
+         ======================================== -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+
+                <!-- ========== LOGO (EDITÁVEL) ========== -->
+                <a href="#home" class="logo">
+                    <span class="logo-icon">
+                        <svg class="logo-svg" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="display: block;">
+                            <!-- Cruz Vermelha de Fundo -->
+                            <path d="M 38 12 H 62 V 38 H 88 V 62 H 62 V 88 H 38 V 62 H 12 V 38 H 38 Z" fill="hsl(354, 85%, 53%)" />
+                            <!-- Cachorro Verde sobreposto -->
+                            <path d="M 40 22 C 22 22 15 32 15 50 C 15 65 25 78 45 78 C 50 78 52 74 50 69 C 48 64 48 57 54 52 C 58 48 65 44 65 32 C 65 20 52 22 40 22 Z" fill="hsl(142, 76%, 45%)" />
+                            <!-- Gato Branco no centro -->
+                            <path d="M 42 48 C 36 48 33 54 33 62 C 33 69 37 73 42 73 C 47 73 49 69 49 62 C 49 54 47 48 42 48 Z" fill="#ffffff" />
+                            <!-- Orelhas do Gato -->
+                            <path d="M 33 54 L 35 46 L 39 50 Z" fill="#ffffff" />
+                            <path d="M 42 50 L 46 46 L 49 54 Z" fill="#ffffff" />
+                        </svg>
+                    </span>
+                    <span class="logo-text">
+                        <span class="logo-name">UBS VET</span>
+                        <span class="logo-tagline">Popular 24H</span>
+                    </span>
+                </a>
+
+                <!-- ========== MENU DESKTOP (EDITÁVEL) ========== -->
+                <nav class="nav" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Início</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <!-- ========== BOTÃO CTA HEADER (EDITÁVEL) ========== -->
+                <a href="#contato" class="btn btn-primary btn-header btn-chatbot-trigger">Agendar Consulta</a>
+
+                <!-- ========== BOTÃO MENU MOBILE ========== -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================
+         SEÇÃO HERO / BANNER PRINCIPAL
+         ======================================== -->
+    <section class="hero" id="home">
+        <!-- ========== BACKGROUND COM OVERLAY (EDITÁVEL) ========== -->
+        <div class="hero-background"
+            style="background-image: url('https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1920&q=80');">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="hero-content">
+
+                <!-- ========== TEXTO HERO (EDITÁVEL) ========== -->
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Cuidando do seu <span class="highlight">melhor amigo</span> com todo amor e carinho
+                    </h1>
+                    <p class="hero-description">
+                        Clínica Veterinária UBS VET Popular 24H e Pet Shop completo com profissionais especializados, equipamentos
+                        modernos e muito carinho para seu pet!
+                    </p>
+
+                    <!-- ========== BOTÕES CTA (EDITÁVEL) ========== -->
+                    <div class="hero-buttons">
+                        <a href="#servicos" class="btn btn-primary btn-large">Ver Serviços</a>
+                        <a href="#contato" class="btn btn-secondary btn-large btn-chatbot-trigger">Agendar Agora</a>
+                    </div>
+
+                    <!-- ========== BADGES/DESTAQUES (EDITÁVEL) ========== -->
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <span class="badge-icon">⭐</span>
+                            <span class="badge-text">+10 anos de experiência</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-icon">❤️</span>
+                            <span class="badge-text">+5000 pets atendidos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== IMAGEM HERO (EDITÁVEL) ========== -->
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80"
+                            alt="Cachorro fofo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SOBRE NÓS
+         ======================================== -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+
+                <!-- ========== IMAGEM SOBRE (EDITÁVEL) ========== -->
+                <div class="sobre-image">
+                    <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&q=80"
+                        alt="Pet Shop Interior">
+                </div>
+
+                <!-- ========== TEXTO SOBRE (EDITÁVEL) ========== -->
+                <div class="sobre-text">
+                    <span class="section-label">Sobre Nós</span>
+                    <h2 class="section-title">Mais de 10 anos cuidando com amor do seu pet</h2>
+                    <p class="sobre-description">
+                        A <strong>UBS VET Popular</strong> nasceu do amor incondicional pelos animais. Somos uma
+                        clínica veterinária e pet shop completa, com equipe especializada e equipamentos modernos para
+                        oferecer o melhor atendimento.
+                    </p>
+                    <p class="sobre-description">
+                        Nossa missão é proporcionar saúde, bem-estar e felicidade para seu melhor amigo, com atendimento
+                        humanizado e serviços de excelência.
+                    </p>
+
+                    <!-- ========== LISTA DE DIFERENCIAIS (EDITÁVEL) ========== -->
+                    <ul class="sobre-list">
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Veterinários especializados e experientes</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Equipamentos modernos e tecnologia de ponta</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Atendimento 24 horas para emergências</span>
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <span>Ambiente confortável e acolhedor</span>
+                        </li>
+                    </ul>
+
+                    <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                </div>
+            </div>
+
+            <!-- ========== GALERIA DE FOTOS (EDITÁVEL) ========== -->
+            <div class="galeria">
+                <div class="galeria-item galeria-item-large">
+                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80"
+                        alt="Cachorros brincando">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&q=80"
+                        alt="Cachorro sendo tosado">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&q=80"
+                        alt="Bulldog fofo">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&q=80" alt="Gato">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=400&q=80"
+                        alt="Pet sendo cuidado">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SERVIÇOS
+         ======================================== -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Nossos Serviços</span>
+                <h2 class="section-title">Tudo que seu pet precisa em um só lugar</h2>
+                <p class="section-description">
+                    Oferecemos serviços completos de pet shop e clínica veterinária para cuidar da saúde e bem-estar do
+                    seu melhor amigo.
+                </p>
+            </div>
+
+            <!-- ========== GRID DE SERVIÇOS (EDITÁVEL) ========== -->
+            <div class="servicos-grid">
+
+                <!-- Serviço 1 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=400&q=80"
+                            alt="Banho e Tosa">
+                    </div>
+                    <div class="servico-icon">🛁</div>
+                    <h3 class="servico-title">Banho e Tosa</h3>
+                    <p class="servico-description">
+                        Banho completo, tosa higiênica e estética com produtos de qualidade e profissionais
+                        especializados.
+                    </p>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&q=80"
+                            alt="Veterinário">
+                    </div>
+                    <div class="servico-icon">🩺</div>
+                    <h3 class="servico-title">Consultas Veterinárias</h3>
+                    <p class="servico-description">
+                        Atendimento clínico geral com veterinários experientes para cuidar da saúde do seu pet.
+                    </p>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&q=80"
+                            alt="Produtos">
+                    </div>
+                    <div class="servico-icon">💉</div>
+                    <h3 class="servico-title">Produtos Pet</h3>
+                    <p class="servico-description">
+                        Pet shop completo com produtos de higiene, acessórios e tudo para o bem-estar do seu pet.
+                    </p>
+                </div>
+
+                <!-- Serviço 4 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?w=400&q=80" alt="Rações">
+                    </div>
+                    <div class="servico-icon">⚕️</div>
+                    <h3 class="servico-title">Rações Premium</h3>
+                    <p class="servico-description">
+                        As melhores marcas de ração e alimentação especial para todas as fases da vida do seu pet.
+                    </p>
+                </div>
+
+                <!-- Serviço 5 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80" alt="Hotel Pet">
+                    </div>
+                    <div class="servico-icon">🏨</div>
+                    <h3 class="servico-title">Hotel Pet</h3>
+                    <p class="servico-description">
+                        Hospedagem com conforto e segurança para seu pet enquanto você viaja tranquilo.
+                    </p>
+                </div>
+
+                <!-- Serviço 6 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=80"
+                            alt="Adestramento">
+                    </div>
+                    <div class="servico-icon">🛍️</div>
+                    <h3 class="servico-title">Adestramento</h3>
+                    <p class="servico-description">
+                        Treinamento profissional para educação, comportamento e socialização do seu pet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO DESTAQUES / DIFERENCIAIS
+         ======================================== -->
+    <section class="destaques">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Por Que Escolher a UBS VET Popular?</span>
+                <h2 class="section-title">Nossos Diferenciais</h2>
+            </div>
+
+            <!-- ========== GRID DE DESTAQUES (EDITÁVEL) ========== -->
+            <div class="destaques-grid">
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80"
+                            alt="Pets felizes">
+                    </div>
+                    <div class="destaque-number">01</div>
+                    <h3 class="destaque-title">Equipe Especializada</h3>
+                    <p class="destaque-description">
+                        Veterinários formados e atualizados com as melhores práticas da medicina veterinária.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&q=80"
+                            alt="Atendimento">
+                    </div>
+                    <div class="destaque-number">02</div>
+                    <h3 class="destaque-title">Atendimento 24h</h3>
+                    <p class="destaque-description">
+                        Pronto atendimento veterinário disponível 24 horas para emergências.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&q=80"
+                            alt="Tecnologia">
+                    </div>
+                    <div class="destaque-number">03</div>
+                    <h3 class="destaque-title">Tecnologia Moderna</h3>
+                    <p class="destaque-description">
+                        Equipamentos de última geração para diagnósticos precisos e tratamentos eficazes.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&q=80"
+                            alt="Ambiente">
+                    </div>
+                    <div class="destaque-number">04</div>
+                    <h3 class="destaque-title">Ambiente Acolhedor</h3>
+                    <p class="destaque-description">
+                        Espaço projetado para o conforto dos pets e tranquilidade dos tutores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO BENEFÍCIOS
+         ======================================== -->
+    <section class="beneficios">
+        <div class="container">
+            <div class="beneficios-content">
+
+                <!-- ========== TEXTO BENEFÍCIOS (EDITÁVEL) ========== -->
+                <div class="beneficios-text">
+                    <span class="section-label">Benefícios</span>
+                    <h2 class="section-title">Vantagens de cuidar do seu pet conosco</h2>
+
+                    <div class="beneficios-list">
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">🎯</div>
+                            <div class="beneficio-text">
+                                <h3>Planos de Saúde Pet</h3>
+                                <p>Consultas ilimitadas, descontos em serviços e muito mais com nossos planos.</p>
+                            </div>
+                        </div>
+
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">📱</div>
+                            <div class="beneficio-text">
+                                <h3>Agendamento Online</h3>
+                                <p>Agende consultas e serviços pelo WhatsApp de forma rápida e prática.</p>
+                            </div>
+                        </div>
+
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">🚗</div>
+                            <div class="beneficio-text">
+                                <h3>Estacionamento Grátis</h3>
+                                <p>Estacionamento amplo e seguro para sua comodidade.</p>
+                            </div>
+                        </div>
+
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">💳</div>
+                            <div class="beneficio-text">
+                                <h3>Parcelamento Facilitado</h3>
+                                <p>Aceitamos todas as formas de pagamento com parcelamento em até 12x.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== IMAGEM BENEFÍCIOS (EDITÁVEL) ========== -->
+                <div class="beneficios-image">
+                    <div class="beneficios-image-placeholder">
+                        <div class="beneficios-grid-images">
+                            <img src="images/frio-1.png" alt="Campanha do Frio 1" class="beneficios-grid-img">
+                            <img src="images/frio-2.png" alt="Campanha do Frio 2" class="beneficios-grid-img">
+                            <img src="images/frio-3.png" alt="Campanha do Frio 3" class="beneficios-grid-img">
+                            <img src="images/frio-4.png" alt="Campanha do Frio 4" class="beneficios-grid-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO DEPOIMENTOS
+         ======================================== -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Depoimentos</span>
+                <h2 class="section-title">O que dizem nossos clientes</h2>
+                <p class="section-description">
+                    A satisfação dos nossos clientes e o bem-estar dos pets são nossa maior recompensa.
+                </p>
+            </div>
+
+            <!-- ========== GRID DE DEPOIMENTOS (EDITÁVEL) ========== -->
+            <div class="depoimentos-grid">
+
+                <!-- Depoimento 1 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-text">
+                        "Excelente atendimento! Minha cachorrinha ficou linda depois do banho e tosa. A equipe é super
+                        atenciosa e cuidadosa. Super recomendo!"
+                    </p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80"
+                                alt="Maria Silva">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Maria Silva</h4>
+                            <p class="author-pet">Tutora da Luna</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-text">
+                        "Profissionais extremamente competentes! O Dr. João salvou meu gato com um diagnóstico preciso e
+                        tratamento eficaz. Gratidão eterna!"
+                    </p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80"
+                                alt="Carlos Oliveira">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Carlos Oliveira</h4>
+                            <p class="author-pet">Tutor do Miau</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="depoimento-card">
+                    <div class="depoimento-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="depoimento-text">
+                        "O hotel pet é maravilhoso! Fiquei tranquila durante minha viagem sabendo que meu dog estava bem
+                        cuidado. Ele voltou feliz e saudável!"
+                    </p>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80"
+                                alt="Ana Paula">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Ana Paula</h4>
+                            <p class="author-pet">Tutora do Thor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO FAQ (PERGUNTAS FREQUENTES)
+         ======================================== -->
+    <section class="faq" id="faq">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Perguntas Frequentes</span>
+                <h2 class="section-title">Tire suas dúvidas</h2>
+            </div>
+
+            <!-- ========== LISTA FAQ ACORDEÃO (EDITÁVEL) ========== -->
+            <div class="faq-list">
+
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais são os horários de atendimento?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Atendemos de segunda a sexta das 8h às 20h, sábados das 8h às 18h e domingos das 9h às 13h.
+                            Para emergências, temos pronto atendimento 24 horas todos os dias.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>É necessário agendar horário para banho e tosa?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, recomendamos agendar com antecedência para garantir o horário de sua preferência. Você
+                            pode agendar pelo WhatsApp, telefone ou pessoalmente.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais vacinas são oferecidas?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oferecemos todas as vacinas recomendadas para cães e gatos: V8, V10, antirrábica, giárdia,
+                            gripe canina, tríplice felina, quádrupla felina, entre outras.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como funciona o hotel pet?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O hotel pet oferece hospedagem com todo conforto e segurança. Fornecemos alimentação,
+                            passeios, brincadeiras e cuidados veterinários se necessário. É necessário apresentar
+                            carteira de vacinação atualizada.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Aceitam plano de saúde pet?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, aceitamos os principais planos de saúde pet do mercado. Também oferecemos nossos
+                            próprios planos com consultas ilimitadas e descontos em serviços.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais formas de pagamento são aceitas?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos dinheiro, PIX, cartões de débito e crédito (parcelamento em até 12x). Para
+                            cirurgias e procedimentos de maior valor, oferecemos condições especiais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO CONTATO
+         ======================================== -->
+    <section class="contato" id="contato">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Contato</span>
+                <h2 class="section-title">Entre em contato conosco</h2>
+                <p class="section-description">
+                    Estamos prontos para cuidar do seu pet 24 horas por dia. Agende uma visita ou tire suas dúvidas!
+                </p>
+            </div>
+
+            <div class="contato-content">
+
+                <!-- ========== INFORMAÇÕES DE CONTATO (EDITÁVEL) ========== -->
+                <div class="contato-info">
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--cor-primaria)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-svg">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Endereço</h3>
+                            <p>Rua Bernardo Vasconcelos, 1234<br>Cachoeirinha - Belo Horizonte/MG<br>CEP: 31150-000</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--cor-primaria)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-svg">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Telefone & WhatsApp</h3>
+                            <p>(31) 97136-4558<br>(31) 3456-7890</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--cor-primaria)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-svg">
+                                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>E-mail</h3>
+                            <p>contato@ubsvetpopular.com.br<br>atendimento@ubsvetpopular.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--cor-primaria)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="info-svg">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Horário</h3>
+                            <p>Seg-Sex: 8h às 20h<br>Sábado: 8h às 18h<br>Domingo: 9h às 13h<br><strong>Emergência:
+                                    24h</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- ========== REDES SOCIAIS (EDITÁVEL) ========== -->
+                    <div class="social-links">
+                        <a href="https://instagram.com/ubsvetbh" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5531971364558" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-svg">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER / RODAPÉ
+         ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- ========== COLUNA 1: SOBRE (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">
+                            <svg class="logo-svg" width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="display: block;">
+                                <!-- Cruz Vermelha de Fundo -->
+                                <path d="M 38 12 H 62 V 38 H 88 V 62 H 62 V 88 H 38 V 62 H 12 V 38 H 38 Z" fill="hsl(354, 85%, 53%)" />
+                                <!-- Cachorro Verde sobreposto -->
+                                <path d="M 40 22 C 22 22 15 32 15 50 C 15 65 25 78 45 78 C 50 78 52 74 50 69 C 48 64 48 57 54 52 C 58 48 65 44 65 32 C 65 20 52 22 40 22 Z" fill="hsl(142, 76%, 45%)" />
+                                <!-- Gato Branco no centro -->
+                                <path d="M 42 48 C 36 48 33 54 33 62 C 33 69 37 73 42 73 C 47 73 49 69 49 62 C 49 54 47 48 42 48 Z" fill="#ffffff" />
+                                <!-- Orelhas do Gato -->
+                                <path d="M 33 54 L 35 46 L 39 50 Z" fill="#ffffff" />
+                                <path d="M 42 50 L 46 46 L 49 54 Z" fill="#ffffff" />
+                            </svg>
+                        </span>
+                        <span class="logo-text">
+                            <span class="logo-name">UBS VET</span>
+                            <span class="logo-tagline">Popular</span>
+                        </span>
+                    </div>
+                    <p class="footer-description">
+                        Cuidando do seu melhor amigo com amor, carinho e profissionalismo 24 horas por dia.
+                    </p>
+                </div>
+
+                <!-- ========== COLUNA 2: LINKS RÁPIDOS (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- ========== COLUNA 3: SERVIÇOS (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Banho e Tosa</a></li>
+                        <li><a href="#servicos">Consultas Veterinárias</a></li>
+                        <li><a href="#servicos">Vacinação</a></li>
+                        <li><a href="#servicos">Cirurgias</a></li>
+                        <li><a href="#servicos">Hotel Pet</a></li>
+                        <li><a href="#servicos">Pet Shop</a></li>
+                    </ul>
+                </div>
+
+                <!-- ========== COLUNA 4: CONTATO (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <ul class="footer-contact">
+                        <li>📍 Rua Bernardo Vasconcelos, 1234<br>Cachoeirinha - Belo Horizonte/MG</li>
+                        <li>📞 (31) 97136-4558</li>
+                        <li>📧 contato@ubsvetpopular.com.br</li>
+                        <li>🕐 Seg-Dom: 24h (Emergência)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ========== LINHA DE COPYRIGHT (EDITÁVEL) ========== -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 UBS VET Popular. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Frederico para pets e tutores</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         ASSISTENTE VIRTUAL JULIANA (CHATBOT)
+         ======================================== -->
+    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Abrir chat">
+        <span class="chatbot-toggle-icon">💬</span>
+        <span class="chatbot-toggle-badge">1</span>
+    </button>
+
+    <div class="chatbot-window" id="chatbot-window">
+        <div class="chatbot-header">
+            <div class="chatbot-info">
+                <div class="chatbot-avatar">🐾</div>
+                <div>
+                    <h3 class="chatbot-name">Juliana</h3>
+                    <span class="chatbot-status">Online - Assistente UBS VET</span>
+                </div>
+            </div>
+            <button class="chatbot-close" id="chatbot-close" aria-label="Fechar chat">&times;</button>
+        </div>
+
+        <div class="chatbot-messages" id="chatbot-messages">
+            <!-- Mensagens serão inseridas dinamicamente via JS -->
+        </div>
+
+        <div class="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Digite sua mensagem aqui..." autocomplete="off">
+            <button id="chatbot-send" aria-label="Enviar mensagem">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- ========== ARQUIVOS JAVASCRIPT ========== -->
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+
+</body>
+
+</html>
